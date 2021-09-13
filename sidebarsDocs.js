@@ -88,7 +88,7 @@ module.exports = {
    {
       type: 'category',
       label: 'Blockchain',
-      items: ['api/blockchain/introduction', 'api/blockchain/stats', 'api/blockchain/blocks', 'api/blockchain/accounts', 'api/blockchain/validators', 'api/blockchain/hotspots', 'api/blockchain/cities', 'api/blockchain/locations', 'api/blockchain/transactions', 'api/blockchain/pending-transactions', 'api/blockchain/oracle-prices', 'api/blockchain/chain-variables', 'api/blockchain/ouis', 'api/blockchain/rewards', 'api/blockchain/dc_burns', 'api/blockchain/state_channels', 'api/blockchain/assert_locations'],
+      items: ['api/blockchain/introduction', 'api/blockchain/stats', 'api/blockchain/blocks', 'api/blockchain/accounts', 'api/blockchain/validators', 'api/blockchain/hotspots', 'api/blockchain/cities', 'api/blockchain/locations', 'api/blockchain/transactions', 'api/blockchain/pending-transactions', 'api/blockchain/oracle-prices', 'api/blockchain/chain-variables', 'api/blockchain/ouis', 'api/blockchain/rewards', 'api/blockchain/dc_burns', 'api/blockchain/challenges', 'api/blockchain/elections', 'api/blockchain/state_channels', 'api/blockchain/assert_locations'],
       collapsed: true,
     },
     'api/console',
@@ -115,7 +115,20 @@ module.exports = {
     {
       type: 'category',
       label: 'Console',
-      items: ['use-the-network/console/quickstart', 'use-the-network/console/users', 'use-the-network/console/data-credits', 'use-the-network/console/adding-devices', 'use-the-network/console/migrating-devices/migrating-devices', 'use-the-network/console/labels', 'use-the-network/console/debug', 'use-the-network/console/device-configurations', 'use-the-network/console/flows/flows', 'use-the-network/console/functions', 'use-the-network/console/integrations/integrations', 'use-the-network/console/console-cli', 'use-the-network/console/console-api','use-the-network/console/my-account', 'use-the-network/console/troubleshooting'],
+      items: ['use-the-network/console/quickstart', 'use-the-network/console/users', 'use-the-network/console/data-credits', 'use-the-network/console/adding-devices', 'use-the-network/console/migrating-devices/migrating-devices', 'use-the-network/console/labels', 'use-the-network/console/debug', 'use-the-network/console/device-configurations', 'use-the-network/console/flows/flows', 'use-the-network/console/functions', 'use-the-network/console/integrations/integrations', 'use-the-network/console/coverage', 'use-the-network/console/console-cli', 'use-the-network/console/console-api','use-the-network/console/my-account', 'use-the-network/console/troubleshooting'],
+      collapsed: false,
+    }
+  ],
+  opensourcedocs: [
+   {
+      type: 'link',
+      label: '<- Back',
+      href: '/open-source'
+    },
+    {
+      type: 'category',
+      label: 'Docs',
+      items: ['open-source/docs/installation'],
       collapsed: false,
     }
   ],
@@ -1086,6 +1099,7 @@ module.exports = {
      items: [
        'mine-hnt/validators/mainnet/validators-mainnet-deployment-guide',
        'mine-hnt/validators/mainnet/validators-mainnet-release',
+	   'mine-hnt/validators/mainnet/validators-mainnet-wallet',
      ],
      collapsed: false,
    },
